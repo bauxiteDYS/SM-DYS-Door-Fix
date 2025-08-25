@@ -1,0 +1,62 @@
+"Games"
+{
+	"!Dystopia"
+	{
+		"Signatures"
+		{
+			"Door_GoUp"
+			{
+				"library"   "server"
+				"linux"		"@_ZN9CBaseDoor8DoorGoUpEv"
+			}
+			
+			"Door_GoDown"
+			{
+				"library"   "server"
+				"linux"		"@_ZN9CBaseDoor10DoorGoDownEv"
+			}
+			
+			"Door_InputOpen"
+			{
+				"library"   "server"
+				"linux"		"@_ZN9CBaseDoor9InputOpenER11inputdata_t"
+			}
+		}
+		"Functions"
+		{
+			"Fn_DoorGoUp"
+			{
+				"signature"	"Door_GoUp"
+				"hooktype"	"raw"
+				"callconv"	"thiscall"
+				"return"	"void"
+				"this"		"entity"
+			}
+			
+			"Fn_DoorGoDown"
+			{
+				"signature"	"Door_GoDown"
+				"hooktype"	"raw"
+				"callconv"	"thiscall"
+				"return"	"void"
+				"this"		"entity"
+			}
+
+			"Fn_DoorInputOpen"
+			{
+				"signature"	"Door_InputOpen"
+				"hooktype"	"raw"
+				"callconv"	"thiscall"
+				"return"	"void"
+				"this"		"entity"
+				"arguments"
+				{
+					"inputdata_t"
+					{
+						"type" "cbaseentity"
+					}
+				}
+			}
+		}
+	}
+}
