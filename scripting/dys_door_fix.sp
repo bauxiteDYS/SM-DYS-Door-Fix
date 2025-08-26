@@ -5,7 +5,7 @@
 #include <dhooks>
 #include <sdktools>
 
-#define DEBUG true
+#define DEBUG false
 #define MaxEdicts 2048
 
 int g_curTick;
