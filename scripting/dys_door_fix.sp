@@ -58,8 +58,8 @@ public void OnPluginStart()
 #if DEBUG
 public Action Cmd_MaxEdicts(int client, int args)
 {
-	int MaxEdicts = GetMaxEntities();
-	PrintToServer("MaxEdicts: %d", MaxEdicts);
+	int maxEdicts = GetMaxEntities();
+	PrintToServer("Max Edicts: %d", maxEdicts);
 	
 	return Plugin_Handled;
 }
