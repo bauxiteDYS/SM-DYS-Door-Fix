@@ -5,21 +5,26 @@
 #include <dhooks>
 #include <sdktools>
 
-#define DEBUG false
+#define DEBUG true
+#define MaxEdicts 2048
 
 int g_curTick;
-int g_lastTick[4096]; //we're assuming there's not more than 4096 ents
+int g_lastTick[MaxEdicts + 1]; //we're assuming there's not more than 2048 edicts
 
 public Plugin myinfo = {
 	name = "Dys Door Fix",
 	description = "Fixes Source Engine bug for Dystopia where doors fly away",
 	author = "bauxite, credits to Rain, Agiel, MasterKatze, Snoop, SM friends",
-	version = "0.1.0",
+	version = "0.1.1",
 	url = "",
 };
 
 public void OnPluginStart()
 {
+	#if DEBUG
+	RegConsoleCmd("sm_maxents", Cmd_MaxEdicts);
+	#endif
+	
 	Handle gd = LoadGameConfigFile("dystopia/door");
 	if (gd == INVALID_HANDLE)
 	{
@@ -49,6 +54,16 @@ public void OnPluginStart()
 	delete dd;
 	CloseHandle(gd);
 }
+
+#if DEBUG
+public Action Cmd_MaxEdicts(int client, int args)
+{
+	int MaxEdicts = GetMaxEntities();
+	PrintToServer("MaxEdicts: %d", MaxEdicts);
+	
+	return Plugin_Handled;
+}
+#endif
 
 MRESReturn DoorGoUp(int pThis)
 {
