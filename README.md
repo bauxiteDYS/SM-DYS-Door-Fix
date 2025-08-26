@@ -15,3 +15,5 @@ Thanks to the people who helped me learn about how to finally fix a 20 year old 
 
 Thanks to: Rain, Agiel, You're Pissed Off, SoftAsHell, MasterKatze, Snoopkirby, Alpha, Geist, Twincannon, Deathreus, Addie, Kenzzer, Bakugo, Brokenphilip, Nosoop, BT, MV, Psychonic.  
 <sub>Yes, it's a huge deal for me, 2 decades of wondering why...</sub>
+
+[<video src="[video/tf2_door_bug.mp4](https://github.com/bauxiteDYS/SM-DYS-Door-Fix/blob/main/video/tf2_door_bug.mp4)" width="640" height="360" controls></video>](https://github.com/bauxiteDYS/SM-DYS-Door-Fix/blob/main/video/tf2_door_bug.mp4)
