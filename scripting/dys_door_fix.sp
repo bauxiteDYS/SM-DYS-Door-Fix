@@ -16,7 +16,7 @@ public Plugin myinfo = {
 	description = "Fixes Source Engine bug for Dystopia where doors fly away",
 	author = "bauxite, credits to Rain, Agiel, MasterKatze, Snoop, SM friends",
 	version = "0.1.1",
-	url = "",
+	url = "https://github.com/bauxiteDYS/SM-DYS-Door-Fix",
 };
 
 public void OnPluginStart()
