@@ -6,10 +6,10 @@
 #include <sdktools>
 
 #define DEBUG false
-#define MaxEdicts 2048
+#define MAX_EDICTS 2048
 
 int g_curTick;
-int g_lastTick[MaxEdicts + 1]; //we're assuming there's not more than 2048 edicts
+int g_lastTick[MAX_EDICTS + 1]; //we're assuming there's not more than 2048 edicts
 
 public Plugin myinfo = {
 	name = "Dys Door Fix",
