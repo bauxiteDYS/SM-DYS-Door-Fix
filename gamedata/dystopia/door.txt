@@ -8,12 +8,14 @@
 			{
 				"library"   "server"
 				"linux"		"@_ZN9CBaseDoor8DoorGoUpEv"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x14\x56\x6A\x01"
 			}
-			
+
 			"Door_GoDown"
 			{
 				"library"   "server"
 				"linux"		"@_ZN9CBaseDoor10DoorGoDownEv"
+				"windows"	"\x56\x8B\xF1\x8B\x06\xFF\x90\x10\x03\x00\x00\x8B\x86\x00\x01\x00\x00"
 			}
 			
 			"Door_InputOpen"
@@ -41,7 +43,7 @@
 				"return"	"void"
 				"this"		"entity"
 			}
-
+			
 			"Fn_DoorInputOpen"
 			{
 				"signature"	"Door_InputOpen"
