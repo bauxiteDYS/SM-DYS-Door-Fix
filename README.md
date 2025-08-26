@@ -12,7 +12,7 @@ Sourcemod plugin for Dystopia that fixes the Source Engine bug for flying doors
 - [Video](https://github.com/bauxiteDYS/SM-DYS-Door-Fix/blob/main/video/tf2_door_bug.mp4)
 
 ## Credits  
-Thanks to the people who helped me learn about how to finally fix a 20 year old bug in this game, and possibly all Source games released up to now, it's a big deal for Dystopia players especially as this game revolves around fast doors with fast re-trigger rates meaning the bug shows itself quite often, and has become part of the identity of the game.
+Thanks to the people who helped me learn the skills that I could use to finally fix a 20 year old bug in this game, and possibly all Source games released up to now, it's a big deal for Dystopia players especially as this game revolves around fast doors with fast re-trigger rates meaning the bug shows itself quite often, and has become part of the identity of the game.
 
 Thanks to: Rain, Agiel, You're Pissed Off, SoftAsHell, MasterKatze, Snoopkirby, Alpha, Geist, Twincannon, Deathreus, Addie, Kenzzer, Bakugo, Brokenphilip, Nosoop, BT, MV, Psychonic.  
 <sub>Yes, it's a huge deal for me, 2 decades of wondering why...</sub>
